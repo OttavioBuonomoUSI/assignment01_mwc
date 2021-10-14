@@ -52,7 +52,7 @@ public class HomeFragment extends Fragment {
         stepsCountTextView = (TextView) root.findViewById(R.id.stepsCount);
 
         stepsCountProgressBar = (ProgressBar) root.findViewById(R.id.pbStepCounter);
-        stepsCountProgressBar.setProgress(10);
+        stepsCountProgressBar.setProgress(0);
 
 
         // TODO 2: Get an instance of the sensor manager.
